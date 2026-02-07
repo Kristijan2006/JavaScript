@@ -17,7 +17,7 @@ function createTable(rows, columns) {
 }
 
 
-  document.getElementById("createBtn")
+  document.getElementById("createBtn").addEventListener("click", function()
   document.addEventListener("click", function () {
     let rows = parseInt(prompt("Enter number of rows:"));
     let columns = parseInt(prompt("Enter number of columns:"));
